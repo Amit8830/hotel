@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('chicken.jpg');
+    
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: rgba(8, 20, 11, 0.911);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 30px ;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Cairo', sans-serif;
+background-color: white;
+}
+
+.navbar li a :hover, .navbar li a.active{
+color: rgb(25, 184, 20);
+font-size: 32px;
+
+
+}
+
+.left{
+    position: absolute;
+    top : 2px;
+    left : 20px;
+}
+
+.left img{
+  width: 90px;
+  position: absolute;
+  top: 20px;
+}
+.ab{
+    position: relative;
+    top: 94px;
+    color: rgb(102, 190, 102);
+    right: 8px;
+    font-size: 20px;
+
+}
+
+
+.mid{
+    border:  green;
+    display: block;
+    position: absolute;
+    margin: 20px auto;
+    width: 35%;
+    left: 450px;
+    top: 2px;
+   
+}
+
+.right{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.btn{
+    background-color: rgb(134, 190, 61);
+    color: rgb(236, 234, 231);
+    padding: 5px;
+    font-size: 23px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Cairo', sans-serif;
+border-radius: 7px;
+
+}
+
+.right .btn :hover{
+    color: rgb(10, 12, 15);
+    cursor: pointer;
+ font-size: 16px;
+}
